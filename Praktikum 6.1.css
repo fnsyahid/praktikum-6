@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    box-sizing: none;
+}
+
+nav {
+    padding: 10px;
+    background: rgba(6, 9, 206, 0.856);
+    height: 100vh;
+}
+
+.flex-container-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.box-1 {
+    height: 230px;
+    width: 620px;
+}
+
+.flex-container-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-2 {
+    height: 230px;
+    width: 370px;
+}
+
+.Xinnn {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 23, 23);
+    margin-top: 10px;
+    width: 194vh;
+}
+
+.Xinnn :hover {
+    transform: rotateY(10deg);
+    transform-style: preserve-3d;
+}
+
+.bangsinnn {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
