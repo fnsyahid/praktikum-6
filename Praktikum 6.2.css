@@ -1,0 +1,55 @@
+body {
+    display: flex;
+  }
+  
+.container-flex-kiri,
+.container-flex-kanan {
+    display: flex;
+  }
+  
+.container-flex-kanan {
+    flex-direction: column;
+}
+  
+nav,
+header, 
+article, 
+aside, 
+footer {
+    border: 4px solid black;
+}
+  
+nav {
+    width: 200px;
+    height: 656px;
+    background-color: pink;
+}
+  
+header {
+    width: 698px;
+    height: 70px;
+    background-color: yellow;
+}
+  
+article {
+    width: 490px;
+    height: 500px;
+    background-color: white;
+}
+  
+aside {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(10, 178, 255);
+}
+  
+footer {
+    width: 698px;
+    height: 70px;
+    background-color: yellow;
+}
+  
+.wrapper-article-aside {
+    display: flex;
+}
+  
